@@ -3,16 +3,12 @@
  */
 
 #include "PluginJniHelper.h"
+#include "JniMacros.h"
 #include <string>
 
-
-#define DEBUG_LOG_ENABLED
-#if DEBUG_LOG_ENABLED
-#define LOG_TAG "PluginJniHelper"
-#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
-#else
-#endif
-
+/*
+ * todo: legal mumbo jumbo
+ */
 namespace scopely
 {
 	namespace plugin_s

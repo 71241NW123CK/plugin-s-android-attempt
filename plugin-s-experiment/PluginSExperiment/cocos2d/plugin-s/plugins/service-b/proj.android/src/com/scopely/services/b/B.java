@@ -1,9 +1,18 @@
 package com.scopely.services.b;
 
+import android.content.Context;
 import android.util.Log;
 
-public class A {
-	private static final String TAG = A.class.getCanonicalName();
+public class B {
+	private static final String TAG = B.class.getCanonicalName();
+
+	private Context context;
+
+	public B(Context context) {
+		Log.d(TAG, "In constructor with context.");
+		this.context = context;
+	}
+
 	public void voidValuedMethod() {
 		Log.d(TAG, "in void valued method.");
 	}

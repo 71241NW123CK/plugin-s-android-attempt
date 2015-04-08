@@ -6,6 +6,7 @@
 #define Protocol_PluginFactory_h
 
 #include <string>
+#include "Plugin.h"
 
 namespace scopely
 {
@@ -14,7 +15,7 @@ namespace scopely
 		class PluginFactory
 		{
 		public:
-			static void createPlugin(std::string name, std::string objectiveCComponentClassName, std::string androidJavaComponentClassName);
+			static Plugin *createPlugin(std::string name, std::string objectiveCComponentClassName, std::string androidJavaComponentClassName);
 		};
 	}
 }

@@ -16,10 +16,11 @@ namespace scopely
 		class Plugin
 		{
 		public:
-			PluginValue *invokeMethodWithVariadicArgs(std::string objectiveCMethodName, std::string androidJavaMethodName, ...);
-			PluginValue *invokeMethodWithVariadicArgs(std::string objectiveCMethodName, std::string androidJavaMethodName, std::string androidJavaMethodJvmSignature, ...);
+			//todo: do the method below.
+			//PluginValue *invokeMethodWithVariadicArgs(std::string objectiveCMethodName, std::string androidJavaMethodName, ...);
+			PluginValue *invokeMethodWithVariadicArgs(std::string objectiveCMethodName, std::string androidJavaMethodName, PluginValue::Type returnType, std::string androidJavaMethodJvmSignature, ...);
 		private:
-			PluginValue *invokeMethodWithVectorArgs(std::string objectiveCMethodName, std::string androidJavaMethodName, std::string androidJavaMethodJvmSignature, std::vector<PluginValue *> argumentVector);
+			PluginValue *invokeMethodWithVectorArgs(std::string objectiveCMethodName, std::string androidJavaMethodName, PluginValue::Type returnType, std::string androidJavaMethodJvmSignature, std::vector<PluginValue *> argumentVector);
 		};
 	}
 }

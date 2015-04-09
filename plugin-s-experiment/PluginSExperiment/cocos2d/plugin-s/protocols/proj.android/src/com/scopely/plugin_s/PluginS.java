@@ -22,8 +22,8 @@ public class PluginS {
 	public static Object createPlugin(String pluginClassName) {
 		Log.d(TAG, "creating plugin with class name " + pluginClassName);
 		Class<?> cls;
+		String nameWithDots = pluginClassName.replace('/', '.');
 		try {
-			String nameWithDots = pluginClassName.replace('/', '.');
 			cls = Class.forName(nameWithDots);
 		} catch (ClassNotFoundException e) {
 			Log.e(TAG, "Class " + nameWithDots + " not found.");

@@ -8,10 +8,13 @@ LOCAL_MODULE_FILENAME := libProtocolStatic
 
 LOCAL_SRC_FILES :=\
 $(addprefix ../../platform/android/, \
-    Plugin.cpp \
-    PluginFactory.cpp \
-    PluginInstanceMap.cpp \
-    PluginJniHelper.cpp \
+	APlugin.cpp \
+	BPlugin.cpp \
+	Plugin.cpp \
+	PluginFactory.cpp \
+	PluginInstanceMap.cpp \
+	PluginJniHelper.cpp\
+	PluginUtils.cpp \
 ) \
 ../../PluginManager.cpp \
 ../../PluginValue.cpp

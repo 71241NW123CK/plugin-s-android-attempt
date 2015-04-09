@@ -5,6 +5,8 @@
 #ifndef Protocol_PluginValue_h
 #define Protocol_PluginValue_h
 
+#include <string>
+
 namespace scopely
 {
     namespace plugin_s

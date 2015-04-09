@@ -9,8 +9,8 @@ namespace scopely
 {
 	namespace plugin_s
 	{
-		static map<Plugin *, jobject> sharedPluginJobjectMap;
-		static map<Plugin *, std::string> sharedPluginStringMap;
+		static std::map<Plugin *, jobject> sharedPluginJobjectMap;
+		static std::map<Plugin *, std::string> sharedPluginStringMap;
 
 		void PluginInstanceMap::setPluginObject(Plugin *plugin, jobject object)
 		{
@@ -19,7 +19,7 @@ namespace scopely
 
 		jobject PluginInstanceMap::getPluginObject(Plugin *plugin)
 		{
-			map<Plugin *, jobject>::const_iterator iterator = sharedPluginJobjectMap.find(plugin);
+			std::map<Plugin *, jobject>::const_iterator iterator = sharedPluginJobjectMap.find(plugin);
 			return iterator == sharedPluginJobjectMap.end() ? NULL : iterator->second;
 		}
 
@@ -30,7 +30,7 @@ namespace scopely
 
 		std::string PluginInstanceMap::getPluginJavaClassName(Plugin *plugin)
 		{
-			map<Plugin *, std::string>::const_iterator iterator = sharedPluginStringMap.find(plugin);
+			std::map<Plugin *, std::string>::const_iterator iterator = sharedPluginStringMap.find(plugin);
 			return iterator == sharedPluginStringMap.end() ? NULL : iterator->second;
 		}
 	}

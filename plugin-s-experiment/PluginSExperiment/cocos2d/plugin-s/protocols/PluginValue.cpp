@@ -2,7 +2,7 @@
  * todo: legal mumbo jumbo
  */
 
-#include "PluginValue"
+#include "PluginValue.h"
 
 namespace scopely
 {

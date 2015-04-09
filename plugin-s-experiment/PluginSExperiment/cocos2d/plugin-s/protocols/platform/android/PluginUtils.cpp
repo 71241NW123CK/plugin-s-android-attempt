@@ -19,7 +19,7 @@ namespace scopely
 				return false;
 			}
 			jclass aJclass;
-			jMethodID aJmethodID;
+			jmethodID aJmethodID;
 			if (!PluginJniHelper::getStaticMethodInfo(jniEnv, &aJclass, &aJmethodID, "com/scopely/plugin_s/PluginS", "initialize", "(Landroid/content/context;)V"))
 			{
 				LOGD("could not get method ID for static method com.scopely.plugin_s.PluginS#initialize(android.content.Context).");

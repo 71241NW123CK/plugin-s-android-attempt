@@ -17,7 +17,7 @@ namespace scopely
 	{
 		Plugin *PluginFactory::createPlugin(std::string name, std::string objectiveCComponentClassName, std::string androidJavaComponentClassName)
 		{
-			if (!name || strlen(name) == 0)
+			if (name == "")
 			{
 				LOGD("Trying to create a plugin without a name.");
 				return NULL;

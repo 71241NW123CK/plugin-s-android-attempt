@@ -2,9 +2,9 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := ProtocolStatic
+LOCAL_MODULE := PluginProtocolStatic
 
-LOCAL_MODULE_FILENAME := libProtocolStatic
+LOCAL_MODULE_FILENAME := libPluginProtocolStatic
 
 LOCAL_SRC_FILES :=\
 $(addprefix ../../platform/android/, \

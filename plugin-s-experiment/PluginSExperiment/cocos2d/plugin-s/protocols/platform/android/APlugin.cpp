@@ -21,7 +21,7 @@ namespace scopely
 				PluginManager::loadPlugin("APlugin", "NSAbstractRidiculousNameForAClassObjectProxyFactory", "com/scopely/services/a/A");
 				isInitialized = true;
 			}
-			return (APlugin *) PluginManager::getPluginWithName("APlugin");
+			return (APlugin *) PluginManager::getPlugin("APlugin");
 		}
 
 		void APlugin::voidValuedMethod()

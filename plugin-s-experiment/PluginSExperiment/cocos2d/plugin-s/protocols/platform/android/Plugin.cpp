@@ -15,7 +15,7 @@ namespace scopely
 		{
             std::vector<PluginValue *> arguments;
             va_list argp;
-            va_start(argp, androidMethodName);
+            va_start(argp, androidJavaMethodJvmSignature);
             PluginValue *arg;
             while ((arg = va_arg(argp, PluginValue *)))
             {
@@ -34,17 +34,17 @@ namespace scopely
 			if (!jniEnv)
 			{
 				LOGD("Failed to get JNI environment.");
-				return;
+				return NULL;
 			}
 			std::string className = PluginInstanceMap::getPluginJavaClassName(this);
-			if (!className)
+			if (className == "")
 			{
 				LOGD("no class name for plugin.");
-				return;
+				return NULL;
 			}
 			jobject pluginObject = PluginInstanceMap::getPluginObject(this);
 			int argumentVectorSize = argumentVector.size();
-			jvalue *arguments = (jvalue *) malloc(sizeof(jvalue) * argumentsCount);
+			jvalue *arguments = (jvalue *) malloc(sizeof(jvalue) * argumentVectorSize);
 			// std::vector<jobject> jobjectArgumentVector;
 			bool allArgsValid = true;
 			PluginValue *result = NULL;
@@ -52,38 +52,45 @@ namespace scopely
 			for (i = 0; i < argumentVectorSize; i++)
 			{
 				PluginValue *argumentPluginValue = argumentVector[i];
-				jstring argumentJstring;
-				bool isString = false;
-				// jobject argumentJobject;
-				// bool isObject = false;
 				switch (argumentPluginValue->getType())
 				{
 					case PluginValue::Type::kTypeNone:
 					case PluginValue::Type::kTypeVoid:
+					{
 						LOGD("invalid argument type");
 						allArgsValid = false;
 						break;
+					}
 					case PluginValue::Type::kTypeBool:
+					{
 						jboolean argumentJboolean = argumentPluginValue->getBoolValue();
-						arguments[i] = argumentJboolean;
+						arguments[i].z = argumentJboolean;
 						break;
+					}
 					case PluginValue::Type::kTypeInt:
+					{
 						jint argumentJint = argumentPluginValue->getIntValue();
-						arguments[i] = argumentJint;
+						arguments[i].i = argumentJint;
 						break;
+					}
 					case PluginValue::Type::kTypeFloat:
+					{
 						jfloat argumentJfloat = argumentPluginValue->getFloatValue();
-						arguments[i] = argumentJfloat;
+						arguments[i].f = argumentJfloat;
 						break;
+					}
 					case PluginValue::Type::kTypeString:
-						isString = true;
-						argumentJstring = jniEnv->NewStringUTF(argumentPluginValue->getStringValue().c_str());
-						arguments[i] = argumentJstring;
+					{
+						jstring argumentJstring = jniEnv->NewStringUTF(argumentPluginValue->getStringValue().c_str());
+						arguments[i].l = argumentJstring;
 						break;
+					}
 					default:
+					{
 						LOGD("lolwut.");
 						allArgsValid = false;
 						break;
+					}
 				}
 			}
 			if (!allArgsValid)
@@ -99,27 +106,40 @@ namespace scopely
 				switch (returnType)
 				{
 					case PluginValue::Type::kTypeNone:
+					{
 						LOGD("invalid return type.");
+						result = NULL;
 						break;
+					}
 					case PluginValue::Type::kTypeVoid:
+					{
 						jniEnv->CallVoidMethodA(pluginObject, aJmethodID, arguments);
 						result = PluginValue::nullValue(PluginValue::Type::kTypeVoid);
 						break;
+					}
 					case PluginValue::Type::kTypeBool:
-						jbool resultJbool = jniEnv->CallBoolMethodA(pluginObject, aJmethodID, arguments);
-						result = PluginValue::valueWithBool(resultJbool);
+					{
+						jboolean resultJboolean = jniEnv->CallBooleanMethodA(pluginObject, aJmethodID, arguments);
+						result = PluginValue::valueWithBool(resultJboolean);
 						break;
+					}
 					case PluginValue::Type::kTypeInt:
+					{
 						jint resultJint = jniEnv->CallIntMethodA(pluginObject, aJmethodID, arguments);
 						result = PluginValue::valueWithInt(resultJint);
 						break;
+					}
 					case PluginValue::Type::kTypeFloat:
+					{
 						jfloat resultJfloat = jniEnv->CallFloatMethodA(pluginObject, aJmethodID, arguments);
 						result = PluginValue::valueWithFloat(resultJfloat);
 						break;
+					}
 					default:
+					{
 						LOGD("lolwut.");
-						result = PluginValue::nullValue(PluginValue::Type::kTypeNone);
+						result = NULL;
+					}
 				}
 			}
 			jniEnv->DeleteLocalRef(aJclass);

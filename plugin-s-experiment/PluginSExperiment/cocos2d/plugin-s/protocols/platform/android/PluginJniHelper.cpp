@@ -163,7 +163,7 @@ namespace scopely
 			jclass aJclass = jniEnv->FindClass(className);
 			if (!aJclass)
 			{
-				LOGD("Failed to find class with name %s." className);
+				LOGD("Failed to find class with name %s.", className);
 				return NULL;
 			}
 
@@ -203,7 +203,7 @@ namespace scopely
 			{
 				if (!(result = jniEnv->FindClass(className)))
 				{
-					LOGD("Failed to find class with name %s through JNIEnv FindClass function.");
+					LOGD("Failed to find class with name %s through JNIEnv FindClass function.", className);
 				}
 			}
 			return result;

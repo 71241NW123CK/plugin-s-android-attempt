@@ -50,31 +50,24 @@ namespace scopely
 			return result;
 		}
 
-		bool PluginJniHelper::getStaticMethodInfo(JNIEnv **pJNIEnv, jclass *pJclass, jmethodID *pJmethodID, const char *className, const char *methodName, const char *jvmMethodSignature)
+		bool PluginJniHelper::getStaticMethodInfo(JNIEnv *jniEnv, jclass *pJclass, jmethodID *pJmethodID, const char *className, const char *methodName, const char *jvmMethodSignature)
 		{
-			if (className == NULL || methodName == NULL || jvmMethodSignature == NULL)
+			if (!jniEnv || !className || !methodName || !jvmMethodSignature)
 			{
-				LOGD("Trying to get method info without class name, method name, and JVM method signature.");
+				LOGD("Trying to get method info without JNI environment, class name, method name, and JVM method signature.");
 				return false;
 			}
-
-			if (!(*pJNIEnv = getJNIEnv()))
-			{
-				LOGD("Failed to get the environment");
-				return false;
-			}
-
 			if (!(*pJclass = getClass(className)))
 			{
 				LOGD("Failed to get class named %s.", className);
 				return false;
 			}
 
-			if (!(*pJmethodID = (*pJNIEnv)->GetStaticMethodID(*pJclass, methodName, jvmMethodSignature)))
+			if (!(*pJmethodID = jniEnv->GetStaticMethodID(*pJclass, methodName, jvmMethodSignature)))
 			{
-				if ((*pJNIEnv)->ExceptionCheck())
+				if (jniEnv->ExceptionCheck())
 				{
-					(*pJNIEnv)->ExceptionClear();
+					jniEnv->ExceptionClear();
 				}
 				LOGD("Failed to find method ID for static method with name %s and JVM method signature %s in class %s.", methodName, jvmMethodSignature, className);
 				return false;
@@ -83,31 +76,24 @@ namespace scopely
 			return true;
 		}
 
-		bool PluginJniHelper::getMethodInfo(JNIEnv **pJNIEnv, jclass *pJclass, jmethodID *pJmethodID, const char *className, const char *methodName, const char *jvmMethodSignature)
+		bool PluginJniHelper::getMethodInfo(JNIEnv *jniEnv, jclass *pJclass, jmethodID *pJmethodID, const char *className, const char *methodName, const char *jvmMethodSignature)
 		{
-			if (className == NULL || methodName == NULL || jvmMethodSignature == NULL)
+			if (!jniEnv || !className || !methodName || !jvmMethodSignature)
 			{
-				LOGD("Trying to get method info without class name, method name, and JVM method signature.");
+				LOGD("Trying to get method info without JNI environment, class name, method name, and JVM method signature.");
 				return false;
 			}
-
-			if (!(*pJNIEnv = getJNIEnv()))
-			{
-				LOGD("Failed to get the environment");
-				return false;
-			}
-
 			if (!(*pJclass = getClass(className)))
 			{
 				LOGD("Failed to get class named %s.", className);
 				return false;
 			}
 
-			if (!(*pJmethodID = (*pJNIEnv)->GetMethodID(*pJclass, methodName, jvmMethodSignature)))
+			if (!(*pJmethodID = jniEnv->GetMethodID(*pJclass, methodName, jvmMethodSignature)))
 			{
-				if ((*pJNIEnv)->ExceptionCheck())
+				if (jniEnv->ExceptionCheck())
 				{
-					(*pJNIEnv)->ExceptionClear();
+					jniEnv->ExceptionClear();
 				}
 				LOGD("Failed to find method ID for instance method with name %s and JVM method signature %s in class %s.", methodName, jvmMethodSignature, className);
 				return false;

@@ -37,6 +37,7 @@ namespace scopely
             inline std::string getStringValue() { return _stringValue; }
         private:
             Type _type;
+            //todo: make a union type
             bool _boolValue;
             int _intValue;
             float _floatValue;

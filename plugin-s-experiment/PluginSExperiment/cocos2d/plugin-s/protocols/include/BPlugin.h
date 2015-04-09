@@ -18,6 +18,7 @@ namespace scopely
 			virtual ~BPlugin();
 			static BPlugin *getSharedInstance();
 			void voidValuedMethod();
+			bool boolValuedMethod();
 			int intValuedMethod();
 			std::string stringValuedMethod();
 		};

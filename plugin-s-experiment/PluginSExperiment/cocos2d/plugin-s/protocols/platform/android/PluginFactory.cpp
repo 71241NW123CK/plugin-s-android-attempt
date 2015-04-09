@@ -22,10 +22,15 @@ namespace scopely
 				LOGD("Trying to create a plugin without a name.");
 				return NULL;
 			}
-			JNIEnv *jniEnv;
+			JNIEnv *jniEnv = PluginJniHelper::getJNIEnv();
+			if (!jniEnv)
+			{
+				LOGD("Failed to get JNI environment.");
+				return NULL;
+			}
 			jclass pluginSJclass;
 			jmethodID createPluginJmethodID;
-			if (!PluginJniHelper::getStaticMethodInfo(&jniEnv, &pluginSJclass, &createPluginJmethodID, "com/scopely/plugin_s/PluginS", "createPlugin", "(Ljava/lang/String;)Ljava/lang/Object;"))
+			if (!PluginJniHelper::getStaticMethodInfo(jniEnv, &pluginSJclass, &createPluginJmethodID, "com/scopely/plugin_s/PluginS", "createPlugin", "(Ljava/lang/String;)Ljava/lang/Object;"))
 			{
 				LOGD("Failed to get method info for static method com.scopely.plugin_s.PluginS#createPlugin(String)");
 				return NULL;

@@ -26,7 +26,7 @@ public class PluginS {
 			String nameWithDots = pluginClassName.replace('/', '.');
 			cls = Class.forName(nameWithDots);
 		} catch (ClassNotFoundException e) {
-			Log.e(TAG, "Class " + nameWithDots = " not found.");
+			Log.e(TAG, "Class " + nameWithDots + " not found.");
 			e.printStackTrace();
 			return null;
 		}

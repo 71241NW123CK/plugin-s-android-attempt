@@ -18,8 +18,8 @@ namespace scopely
 			static JavaVM *getJavaVM();
 			static void setJavaVM(JavaVM *javaVM);
 			static JNIEnv *getJNIEnv();
-			static bool getStaticMethodInfo(JNIEnv **pJNIEnv, jclass *pJclass, jmethodID *pJmethodID, const char *className, const char *methodName, const char *jvmMethodSignature);
-			static bool getMethodInfo(JNIEnv **pJNIEnv, jclass *pJclass, jmethodID *pJmethodID, const char *className, const char *methodName, const char *jvmMethodSignature);
+			static bool getStaticMethodInfo(JNIEnv *jniEnv, jclass *pJclass, jmethodID *pJmethodID, const char *className, const char *methodName, const char *jvmMethodSignature);
+			static bool getMethodInfo(JNIEnv *jniEnv, jclass *pJclass, jmethodID *pJmethodID, const char *className, const char *methodName, const char *jvmMethodSignature);
 			static std::string stringForJstring(jstring aJstring);
 			static bool setClassLoaderFromNativeActivity(jobject nativeActivity);
 			static jmethodID sharedLoadClassMethodID;

@@ -3,6 +3,7 @@
  */
 
 #include <map>
+#include "JniMacros.h"
 #include "PluginManager.h"
 #include "PluginFactory.h"
 #include "PluginInstanceMap.h"
@@ -19,7 +20,13 @@ namespace scopely
             {
                 return;
             }
-            PluginFactory::createPlugin(pluginName, objectiveCComponentClassName, androidJavaComponentClassName);
+            Plugin *plugin = PluginFactory::createPlugin(pluginName, objectiveCComponentClassName, androidJavaComponentClassName);
+            if (!plugin)
+            {
+                LOGD("Failed to create plugin with name %s, Objective-C component class name %s, Android Java component class name %s", pluginName.c_str(), objectiveCComponentClassName.c_str(), androidJavaComponentClassName.c_str());
+                return;
+            }
+            setPlugin(pluginName, plugin);
         }
 
         Plugin *PluginManager::getPlugin(std::string pluginName)

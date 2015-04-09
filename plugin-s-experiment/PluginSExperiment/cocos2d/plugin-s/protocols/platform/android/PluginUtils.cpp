@@ -12,10 +12,15 @@ namespace scopely
 	{
 		bool PluginUtils::initializePluginSystem(android_app *androidApp)
 		{
-			JNIEnv *jniEnv;
+			JNIEnv *jniEnv = PluginJniHelper::getJNIEnv();
+			if (!jniEnv)
+			{
+				LOGD("could not get JNI Environment.");
+				return false;
+			}
 			jclass aJclass;
 			jMethodID aJmethodID;
-			if (!PluginJniHelper::getStaticMethodInfo(&jniEnv, &aJclass, &aJmethodID, "com/scopely/plugin_s/PluginS", "initialize", "(Landroid/content/context;)V"))
+			if (!PluginJniHelper::getStaticMethodInfo(jniEnv, &aJclass, &aJmethodID, "com/scopely/plugin_s/PluginS", "initialize", "(Landroid/content/context;)V"))
 			{
 				LOGD("could not get method ID for static method com.scopely.plugin_s.PluginS#initialize(android.content.Context).");
 				return false;

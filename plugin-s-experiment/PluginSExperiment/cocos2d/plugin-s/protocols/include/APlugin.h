@@ -18,6 +18,7 @@ namespace scopely
 			virtual ~APlugin();
 			static APlugin *getSharedInstance();
 			void voidValuedMethod();
+			bool boolValuedMethod();
 			int intValuedMethod();
 			std::string stringValuedMethod();
 		};

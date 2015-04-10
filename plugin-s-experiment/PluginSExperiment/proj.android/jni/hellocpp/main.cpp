@@ -15,5 +15,5 @@ void cocos_android_app_init (JNIEnv* env, jobject thiz) {
     AppDelegate *pAppDelegate = new AppDelegate();
     JavaVM *javaVM;
     env->GetJavaVM(&javaVM);
-    PluginJniHelper::setJavaVM(javaVM);
+    scopely::plugin_s::PluginJniHelper::setJavaVM(javaVM);
 }

@@ -1,4 +1,6 @@
 #include "HelloWorldScene.h"
+#include "APlugin.h"
+#include "BPlugin.h"
 
 USING_NS_CC;
 

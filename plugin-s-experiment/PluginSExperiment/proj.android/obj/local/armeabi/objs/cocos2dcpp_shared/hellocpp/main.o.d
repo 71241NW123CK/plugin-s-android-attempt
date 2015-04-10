@@ -351,7 +351,8 @@ obj/local/armeabi/objs/cocos2dcpp_shared/hellocpp/main.o: \
  jni/../../cocos2d/cocos/3d/../deprecated/CCString.h \
  jni/../../cocos2d/cocos/3d/../deprecated/CCNotificationCenter.h \
  jni/../../cocos2d/cocos/3d/../deprecated/CCDeprecated.h \
- jni/../../cocos2d/cocos/3d/../platform/android/jni/JniHelper.h
+ jni/../../cocos2d/cocos/3d/../platform/android/jni/JniHelper.h \
+ jni/../../cocos2d/plugin-s/publish/protocols/android/PluginJniHelper.h
 
 jni/../../Classes/AppDelegate.h:
 
@@ -1058,3 +1059,5 @@ jni/../../cocos2d/cocos/3d/../deprecated/CCNotificationCenter.h:
 jni/../../cocos2d/cocos/3d/../deprecated/CCDeprecated.h:
 
 jni/../../cocos2d/cocos/3d/../platform/android/jni/JniHelper.h:
+
+jni/../../cocos2d/plugin-s/publish/protocols/android/PluginJniHelper.h:

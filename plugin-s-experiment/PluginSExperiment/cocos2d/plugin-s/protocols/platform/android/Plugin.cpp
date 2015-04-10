@@ -21,7 +21,7 @@ namespace scopely
             {
                 arguments.push_back(arg);
             }
-            invokeMethodWithVectorArgs(objectiveCMethodName, androidJavaMethodName, returnType, androidJavaMethodJvmSignature, arguments);
+            return invokeMethodWithVectorArgs(objectiveCMethodName, androidJavaMethodName, returnType, androidJavaMethodJvmSignature, arguments);
         }
 
 		PluginValue *Plugin::invokeMethodWithVectorArgs(std::string objectiveCMethodName, std::string androidJavaMethodName, PluginValue::Type returnType, std::string androidJavaMethodJvmSignature, std::vector<PluginValue *> argumentVector)
@@ -87,7 +87,7 @@ namespace scopely
 					}
 					default:
 					{
-						LOGD("lolwut.");
+						LOGD("lolwut.0");
 						allArgsValid = false;
 						break;
 					}
@@ -137,7 +137,7 @@ namespace scopely
 					}
 					default:
 					{
-						LOGD("lolwut.");
+						LOGD("lolwut.1");
 						result = NULL;
 					}
 				}

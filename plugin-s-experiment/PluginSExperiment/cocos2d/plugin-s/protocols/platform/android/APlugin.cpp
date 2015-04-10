@@ -26,22 +26,22 @@ namespace scopely
 
 		void APlugin::voidValuedMethod()
 		{
-			invokeMethodWithVariadicArgs("voidValuedMethod", "voidValuedMethod", PluginValue::Type::kTypeVoid, "()V");
+			invokeMethodWithVariadicArgs("voidValuedMethod", "voidValuedMethod", PluginValue::Type::kTypeVoid, "()V", NULL);
 		}
 
 		bool APlugin::boolValuedMethod()
 		{
-			return invokeMethodWithVariadicArgs("boolValuedMethod", "boolValuedMethod", PluginValue::Type::kTypeBool, "()Z")->getBoolValue();
+			return invokeMethodWithVariadicArgs("boolValuedMethod", "boolValuedMethod", PluginValue::Type::kTypeBool, "()Z", NULL)->getBoolValue();
 		}
 
 		int APlugin::intValuedMethod()
 		{
-			return invokeMethodWithVariadicArgs("intValuedMethod", "intValuedMethod", PluginValue::Type::kTypeInt, "()I")->getIntValue();
+			return invokeMethodWithVariadicArgs("intValuedMethod", "intValuedMethod", PluginValue::Type::kTypeInt, "()I", NULL)->getIntValue();
 		}
 
 		std::string APlugin::stringValuedMethod()
 		{
-			return invokeMethodWithVariadicArgs("stringValuedMethod", "stringValuedMethod", PluginValue::Type::kTypeString, "()Ljava/lang/String;")->getStringValue();
+			return invokeMethodWithVariadicArgs("stringValuedMethod", "stringValuedMethod", PluginValue::Type::kTypeString, "()Ljava/lang/String;", NULL)->getStringValue();
 		}
 	}
 }

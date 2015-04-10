@@ -9,58 +9,58 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/HelloWorldScene.o: \
  jni/../../cocos2d/cocos/3d/../base/ccConfig.h \
  jni/../../cocos2d/cocos/3d/../platform/CCPlatformDefine.h \
  jni/../../cocos2d/cocos/3d/../platform/android/CCPlatformDefine-android.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/log.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/android/log.h \
  jni/../../cocos2d/cocos/3d/../base/CCRefPtr.h \
  jni/../../cocos2d/cocos/3d/../base/CCRef.h \
  jni/../../cocos2d/cocos/3d/../base/ccMacros.h \
  jni/../../cocos2d/cocos/3d/../base/CCConsole.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/select.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/api-level.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/time.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/types.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdint.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/_types.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/_types.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/_wchar_limits.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/posix_types.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/stddef.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/compiler.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/posix_types.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/types.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/types.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/kernel.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/time.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/signal.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/limits.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/limits.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/limits.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/internal_types.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/limits.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/page.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/string.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/malloc.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/signal.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/siginfo.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/ucontext.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/user.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/select.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/cdefs.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/android/api-level.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/time.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/types.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/stdint.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/_types.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/machine/_types.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/_wchar_limits.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/linux/posix_types.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/linux/stddef.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/linux/compiler.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm/posix_types.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm/types.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/linux/types.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/machine/kernel.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/linux/time.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/signal.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/limits.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/limits.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/linux/limits.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/machine/internal_types.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/machine/limits.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/syslimits.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm/page.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/string.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/malloc.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm/signal.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm-generic/signal.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm/sigcontext.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm/siginfo.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm-generic/siginfo.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/ucontext.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/user.h \
  /Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/include/thread \
  /Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/include/vector \
  /Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/include/map \
  /Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex \
  jni/../../cocos2d/cocos/3d/../platform/CCStdC.h \
  jni/../../cocos2d/cocos/3d/../platform/android/CCStdC-android.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/math.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdlib.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/alloca.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/strings.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/memory.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/math.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/stdlib.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/alloca.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/strings.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/memory.h \
  /Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert \
  jni/../../cocos2d/cocos/3d/../base/ccRandom.h \
  /Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/include/random \
@@ -93,10 +93,10 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/HelloWorldScene.o: \
  jni/../../cocos2d/cocos/3d/../base/ccTypes.h \
  jni/../../cocos2d/cocos/3d/../platform/CCGL.h \
  jni/../../cocos2d/cocos/3d/../platform/android/CCGL-android.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/GLES2/gl2platform.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/KHR/khrplatform.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/GLES2/gl2.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/GLES2/gl2ext.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/GLES2/gl2platform.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/KHR/khrplatform.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/GLES2/gl2.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/GLES2/gl2ext.h \
  jni/../../cocos2d/cocos/3d/../base/CCConfiguration.h \
  jni/../../cocos2d/cocos/3d/../base/CCValue.h \
  jni/../../cocos2d/cocos/3d/../base/CCDirector.h \
@@ -119,14 +119,14 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/HelloWorldScene.o: \
  jni/../../cocos2d/cocos/3d/../base/CCScheduler.h \
  /Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/include/set \
  jni/../../cocos2d/cocos/3d/../base/uthash.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/inttypes.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/inttypes.h \
  jni/../../cocos2d/cocos/3d/../base/base64.h \
  jni/../../cocos2d/cocos/3d/../base/ZipUtils.h \
  jni/../../cocos2d/cocos/3d/../platform/android/CCFileUtils-android.h \
  jni/../../cocos2d/cocos/3d/../platform/CCFileUtils.h \
  jni/../../cocos2d/cocos/3d/../base/CCData.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/jni.h \
- /Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/asset_manager.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/jni.h \
+ /Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/android/asset_manager.h \
  jni/../../cocos2d/cocos/3d/../base/CCProfiling.h \
  jni/../../cocos2d/cocos/3d/../base/CCMap.h \
  jni/../../cocos2d/cocos/3d/../base/CCConsole.h \
@@ -351,7 +351,11 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/HelloWorldScene.o: \
  jni/../../cocos2d/cocos/3d/../deprecated/CCBool.h \
  jni/../../cocos2d/cocos/3d/../deprecated/CCString.h \
  jni/../../cocos2d/cocos/3d/../deprecated/CCNotificationCenter.h \
- jni/../../cocos2d/cocos/3d/../deprecated/CCDeprecated.h
+ jni/../../cocos2d/cocos/3d/../deprecated/CCDeprecated.h \
+ jni/../../cocos2d/plugin-s/publish/protocols/android/../include/APlugin.h \
+ jni/../../cocos2d/plugin-s/publish/protocols/android/../include/Plugin.h \
+ jni/../../cocos2d/plugin-s/publish/protocols/android/../include/PluginValue.h \
+ jni/../../cocos2d/plugin-s/publish/protocols/android/../include/BPlugin.h
 
 jni/../../Classes/HelloWorldScene.h:
 
@@ -371,7 +375,7 @@ jni/../../cocos2d/cocos/3d/../platform/CCPlatformDefine.h:
 
 jni/../../cocos2d/cocos/3d/../platform/android/CCPlatformDefine-android.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/log.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/android/log.h:
 
 jni/../../cocos2d/cocos/3d/../base/CCRefPtr.h:
 
@@ -381,77 +385,77 @@ jni/../../cocos2d/cocos/3d/../base/ccMacros.h:
 
 jni/../../cocos2d/cocos/3d/../base/CCConsole.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/select.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/select.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/cdefs.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/api-level.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/android/api-level.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/time.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/time.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/types.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/types.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdint.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/stdint.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/_types.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/_types.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/_types.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/machine/_types.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/_wchar_limits.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/_wchar_limits.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/posix_types.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/linux/posix_types.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/stddef.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/linux/stddef.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/compiler.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/linux/compiler.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/posix_types.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm/posix_types.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/types.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm/types.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/types.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/linux/types.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/kernel.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/machine/kernel.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/time.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/linux/time.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/signal.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/signal.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/limits.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/limits.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/limits.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/limits.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/linux/limits.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/linux/limits.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/internal_types.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/machine/internal_types.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/limits.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/machine/limits.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/syslimits.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/syslimits.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/page.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm/page.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/string.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/string.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/malloc.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/malloc.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/signal.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm/signal.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm-generic/signal.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm/sigcontext.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm/siginfo.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm/siginfo.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/asm-generic/siginfo.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/ucontext.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/ucontext.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/user.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/sys/user.h:
 
 /Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/include/thread:
 
@@ -465,15 +469,15 @@ jni/../../cocos2d/cocos/3d/../platform/CCStdC.h:
 
 jni/../../cocos2d/cocos/3d/../platform/android/CCStdC-android.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/math.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/math.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdlib.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/stdlib.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/alloca.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/alloca.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/strings.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/strings.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/memory.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/memory.h:
 
 /Library/Android/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert:
 
@@ -539,13 +543,13 @@ jni/../../cocos2d/cocos/3d/../platform/CCGL.h:
 
 jni/../../cocos2d/cocos/3d/../platform/android/CCGL-android.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/GLES2/gl2platform.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/GLES2/gl2platform.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/KHR/khrplatform.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/KHR/khrplatform.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/GLES2/gl2.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/GLES2/gl2.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/GLES2/gl2ext.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/GLES2/gl2ext.h:
 
 jni/../../cocos2d/cocos/3d/../base/CCConfiguration.h:
 
@@ -591,7 +595,7 @@ jni/../../cocos2d/cocos/3d/../base/CCScheduler.h:
 
 jni/../../cocos2d/cocos/3d/../base/uthash.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/inttypes.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/inttypes.h:
 
 jni/../../cocos2d/cocos/3d/../base/base64.h:
 
@@ -603,9 +607,9 @@ jni/../../cocos2d/cocos/3d/../platform/CCFileUtils.h:
 
 jni/../../cocos2d/cocos/3d/../base/CCData.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/jni.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/jni.h:
 
-/Library/Android/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/asset_manager.h:
+/Library/Android/android-ndk-r10d/platforms/android-14/arch-arm/usr/include/android/asset_manager.h:
 
 jni/../../cocos2d/cocos/3d/../base/CCProfiling.h:
 
@@ -1056,3 +1060,11 @@ jni/../../cocos2d/cocos/3d/../deprecated/CCString.h:
 jni/../../cocos2d/cocos/3d/../deprecated/CCNotificationCenter.h:
 
 jni/../../cocos2d/cocos/3d/../deprecated/CCDeprecated.h:
+
+jni/../../cocos2d/plugin-s/publish/protocols/android/../include/APlugin.h:
+
+jni/../../cocos2d/plugin-s/publish/protocols/android/../include/Plugin.h:
+
+jni/../../cocos2d/plugin-s/publish/protocols/android/../include/PluginValue.h:
+
+jni/../../cocos2d/plugin-s/publish/protocols/android/../include/BPlugin.h:
